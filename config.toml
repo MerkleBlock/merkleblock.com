@@ -90,5 +90,5 @@ theme = "creative"
 	[params.contact]
 		headline = "Contact us"
 		description = "Get in touch!"
-		phone = "123-456-678"
-		email = "hello@merkleblock.com"
+		skype = "merkleblock"
+		email = "merkleblock@gmail.com"
