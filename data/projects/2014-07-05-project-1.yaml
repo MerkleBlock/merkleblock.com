@@ -1,0 +1,8 @@
+modalID: 1
+title: BlockStamp
+date: 2017
+img: output.png
+client: OpenTimestamps
+clientLink: "https://blockstamp.merkleblock.com"
+category: Bitcoin
+description: We developed a URL archiving and timestamping server based on OpenTimestamps.

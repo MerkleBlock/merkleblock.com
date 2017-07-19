@@ -1,33 +1,36 @@
-baseurl = "http://localhost:1313/"
+baseurl = "https://example.org/"
 languageCode = "en-us"
 title = "MerkleBlock LLP"
 theme = "creative"
+googleAnalytics = ""
 
 [params]
 
 	# You can use Markdown syntax for urls [text](//url.to/source) for
 	# most longer texts.
 
-	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
 	# for more icons. The icons are represented by their corresponding
 	# CSS class.
 
 	# All projects of the portfolio are defined in their own files.
 	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
 	# folder into the 'data' directory at the root of this Hugo site.
-	# For more informtion take a look at the README.
+	# For more information take a look at the README.
 
-	# To provide some metadata for search engines feel free to add a few
-    # information about you and your website.
-	name = "merkleblock"
-	description = "MerkleBlock LLP Home Page"
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Merkleblock Solutions"
+	description = "Blockchain Consultancy, Bitcoin, Blockchain Development, Decentralized, P2P, Altcoin, CryptoCurrency"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
 	logo = "img/logo.png"
-	favicon = "img/favicon.ico"
 
 
 	# Navigation
 	[params.navigation]
-		brand = "MerkleBlock"
+		brand = "MerkleBlock LLP"
 
 		[params.navigation.links]
 			about     = "About"
@@ -39,21 +42,20 @@ theme = "creative"
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "MerkleBlock LLP"
-		subtitle   = "Blockchain Consulting"
-		buttonText = "Learn more"
+		slogan     = "Blockchain Solutions"
+		subtitle   = "MerkleBlock is a development studio focusing on innovative solutions based on the blockchain"
+		buttonText = "Find out more"
 
 
 	# About section
 	[params.about]
 		headline    = "About us"
-		description = "We are a small team of dedicated professionals who are passionate about blockchain technology.  We have been in the cryptocurrency space since the earliest days and we deeply care about decentralized networks."
-		buttonText  = "Get started!"
+		description = "We are a small group of developers who are passionate about distributed systems. We love building cutting edge products which harness the power of the blockchain. If you are looking for a reliable team to support your development, we can help."
 
 
 	# Service section
 	[params.services]
-		headline = "Our Work"
+		headline = "Our Services"
 
         [[params.services.list]]
             icon = "fa-bitcoin"
@@ -68,7 +70,7 @@ theme = "creative"
 		[[params.services.list]]
             icon = "fa-user-secret"
             title = "Security"
-            description = "We audit applications and provide security guidelines."
+            description = "We provide security and privacy solutions based on industry-wide best practices."
 
 
     # Portfolio modals
@@ -80,7 +82,7 @@ theme = "creative"
 
     # Aside section
 	[params.aside]
-		headline = "Find us on Github"
+		headline = "View our code"
 
 		[params.aside.button]
 			text = "Github"
@@ -92,3 +94,9 @@ theme = "creative"
 		description = "Get in touch!"
 		skype = "merkleblock"
 		email = "merkleblock@gmail.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""
