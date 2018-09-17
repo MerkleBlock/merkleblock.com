@@ -1,6 +1,6 @@
 baseurl = "https://merkleblock.com/"
 languageCode = "en-us"
-title = "MerkleBlock LLP"
+title = "MerkleBlock Labs"
 theme = "creative"
 googleAnalytics = ""
 
@@ -30,7 +30,7 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "MerkleBlock LLP"
+		brand = "MerkleBlock Labs"
 
 		[params.navigation.links]
 			about     = "About"
