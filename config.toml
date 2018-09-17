@@ -42,8 +42,8 @@ googleAnalytics = ""
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Blockchain Solutions"
-		subtitle   = "MerkleBlock is a development studio focusing on innovative solutions based on the blockchain"
+		slogan     = "MerkleBlock Labs"
+		subtitle   = "MerkleBlock Labs is a research and development studio focusing on innovative solutions based on the blockchain"
 		buttonText = "Find out more"
 
 
