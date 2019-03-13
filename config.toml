@@ -1,6 +1,6 @@
 baseurl = "https://merkleblock.com/"
 languageCode = "en-us"
-title = "MerkleBlock Labs"
+title = "MerkleBlock LLP"
 theme = "creative"
 googleAnalytics = ""
 
@@ -30,7 +30,7 @@ googleAnalytics = ""
 
 	# Navigation
 	[params.navigation]
-		brand = "MerkleBlock Labs"
+		brand = "MerkleBlock LLP"
 
 		[params.navigation.links]
 			about     = "About"
@@ -42,8 +42,8 @@ googleAnalytics = ""
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "MerkleBlock Labs"
-		subtitle   = "MerkleBlock Labs is a research and development studio focusing on innovative solutions based on the blockchain"
+		slogan     = "MerkleBlock LLP"
+		subtitle   = "MerkleBlock LLP is a research and development studio focusing on innovative solutions based on the blockchain"
 		buttonText = "Find out more"
 
 
