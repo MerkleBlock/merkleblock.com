@@ -93,7 +93,7 @@ googleAnalytics = ""
 		headline = "Contact us"
 		description = "Get in touch!"
 		skype = "merkleblock"
-		email = "merkleblock@gmail.com"
+		email = "contact@merkleblock.com"
 
 	# Google Maps section
 	# [params.location]
